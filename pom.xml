@@ -42,6 +42,9 @@
                             <classpathPrefix>lib/</classpathPrefix>
                             <mainClass>com.kemalbeyaz.BlinkLed</mainClass>
                         </manifest>
+                        <manifestEntries>
+                            <Class-Path>/opt/pi4j/lib/*</Class-Path>
+                        </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
