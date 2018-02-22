@@ -11,6 +11,7 @@ import static java.lang.Thread.*;
 public class BlinkLed {
 
     public static void main(String[] args) throws InterruptedException {
+        System.setProperty("pi4j.linking", "dynamic");
 
         System.out.println("<--Pi4J--> GPIO Control Example ... started.");
 
